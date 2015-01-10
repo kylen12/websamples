@@ -1,4 +1,519 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+    <meta charset="utf-8">
+    <title>Synchronicity - A Community Arts Festival</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="/bootstrap/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+
+<style type="text/css">
+
+html,body {
+  height:100%;
+    background:center no-repeat fixed url('');
+    background-size: cover;
+}
+
+.icon-bar {
+  background-color:#fff;
+}
+
+.navbar-trans {
+  background-color:#26396E;
+    color:#fff;
+}
+
+.navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active  {
+  background-color:#1A7742;
+}
+
+.navbar-trans a{
+    color:#87C2DA;
+}
+
+.navbar-trans .form-control:focus {
+  border-color: #eee;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+}
+
+section {
+  padding-top:70px;  
+    padding-bottom:50px; 
+    min-height:calc(100% - 1px);
+}
+
+.v-center {
+    padding-top:10%;
+    font-size:70px;
+}
+  
+.well {
+  border-color:transparent;
+}
+
+a.list-group-item.active,[class*='-info'] {
+  background-color: #168ccc;
+    color:#fff;
+}
+  
+  
+#who {
+  background-color: #EFE893;
+  
+  color:#162140;
+}
+
+#what {
+  background-color: #88C4D9;
+    color:#444;
+}
+
+#why {
+  background-color: #EB8E58;  
+
+  color:#312E4C;
+}
+
+#when {
+  background-color: #928CB5;  
+  
+  color:#312E4C;
+}
+
+#participate {
+  background-color: #98C78B;
+  color:#312E4C;
+}
+
+img {
+  width:90%;
+}
+
+input {
+  border-radius:5px;
+
+  color:grey;
+  font-style:italic;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+
+footer {
+  background-color:#26396E;
+    color:#88C4D9;
+    min-height:100px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+p {
+  text-align: left;
+}
+
+footer .nav>li>a {
+    padding:3px;
+    color:#ccc;
+}
+
+footer .nav>li>a:hover {
+    background-color:transparent;
+  color:#fff;
+}
+
+h2 
+{
+}
+    </style>
+</head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+<body  >
+  <nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#what">Synchronicity</a>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-collapsible">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#what">What</a></li>
+          <li><a href="#who">Who</a></li>
+          <li><a href="#why">Why</a></li>
+          <li><a href="#when">When</a></li>
+          <li><a href="#participate">Participate</a></li>
+
+          <li>&nbsp;</li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.facebook.com/FoldingTableProductions" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/folding_table" target="_blank">Twitter</a></li>
+          <li><a href="https://foldingtableproductions.wordpress.com/call-for-art-synchronicity-march-2015/" target="_blank">Blog</a></li>       
+          <li>&nbsp;</li>
+        </ul>        
+      </div>
+    </div>
+  </nav>
+
+  <section class="container-fluid" id="what">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+        <img src="http://i.imgur.com/A1jhexo.jpg" onclick="window.open(this.src)" class="img-responsive center-block ">
+        </div>
+      </div>
+  </section>
+
+  <section class="container-fluid" id="who">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+          <h1 style="color:#26396E">Who</h1>
+          <br>      
+          <h2>Art is for everyone.</h2>
+          
+          <p>Folding Table Productions is a nonprofit organization based in Austin, Texas with a simple vision: Art is For Everyone. We aim to create a public forum to initiate and culture inclusive discussions, via the medium of art.</p>
+
+<p>Through community shows featuring submissions from local artists, lectures and educational outreach, we involve diverse populations in engaging discourse usually reserved for those in academia.</p>
+
+<p>Our first exhibit, “Pythagoras (and Austinites) Discovering the Musical Intervals” premiered in Austin in September 2012. Besides featuring a variety of new and well-seasoned Austin artists, the show also included music from local DJs. We had over 100 people in attendance and fundraising from local sponsors totaled over $2,000.</p>
+
+<p>After this show, we desired to continue sharing relevant but underexposed topics to the greater public. Thus, Folding Table Productions was born.</p>
+
+
+
+          <h2>Our Objectives</h2>
+<p>• Feature new art exhibits (at least two a year) featuring various topics, thus continuously nurturing new discourses with our audience.</p>
+
+<p>• Include 12-20 original art pieces in each show, as well as lectures and group discussion to explore and elaborate further on the show’s theme.</p>
+
+<p>• Accompany new exhibits with educational outreach sessions at nearby schools, in order to engage young people in the discourse as well. This could include class visits, or even an art summer camp with activities promoting art education.</p>
+
+<p>Our dream for the future is to host shows in nearby cities such as Houston and Dallas, creating a deeper appreciation for art and intellectual curiosity statewide.</p>
+
+
+
+
+
+          <h2>Our Staff</h2>
+<p>The idea for this organization was born out of our first art exhibit. The theme of the show was based on co-founder Andy Tang’s Master’s thesis about the narrative of Pythagoras’s musical discovery at the blacksmiths’ workshop.</p>
+
+<p>Curious about the lack of substantial commentary on the story, Tang soon fell into a rabbit hole of research about the story’s history. He learned how influential the narrative had been to history, now long faded, and wanted to put together a community art show that connected all sorts of people to this tradition.</p>
+
+<p>Tang partnered with Vickie Valadez, who was drawn by her natural interest in art and the project’s potential for building equality and social justice through artistic discourse. For the first exhibition she served as an event publicist but has since taken an active role in the new organization’s nonprofit development.</p>
+
+    
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid" id="why">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+          <h1 style="color:#26396E">Why</h1>
+          <br>
+<p>It is with great pleasure and honor to announce Folding Table Productions’ first international event! FTP is collaborating with Escuela Americana de El Salvador (American School of El Salvador) for an arts festival called Synchronicity based on the idea of synchronization this March 2015.</p>
+
+<p>Proceeds from art sales will benefit HOPAC, a Salvadoran charitable organization for cerebral palsy.</p>
+
+<p>We’re excited for this synchronous partnership with Escuela Americana.</p>
+
+<p>We’ll debut an art auction and sales website for this arts festival. Stay tuned…</p>
+
+<p>Meanwhile, check out the call for art submissions!</p>
+    
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+
+        <div class="list-group text-center" style="positive:relative; margin: 0 auto; margin:50px;float:right;">
+          <a href="https://www.amschool.edu.sv/easite/" target="_blank"><img src="https://foldingtableproductions.files.wordpress.com/2014/12/ea-logo.png?w=750" style="width:100px;margin:20px"></a>
+                    <br>Escuela Americana<br><br>
+
+        </div>
+      </div>
+      
+      <div class="col-sm-6 col-xs-12">
+
+        <div class="list-group text-center" style="positive:relative; margin: 0 auto; margin:50px; float:left">
+          <a href="http://www.hopac.org/index.php" target="_blank"><img src="http://i.imgur.com/L6ESrue.png" style="width:70px;margin:20px" ></a>
+          <br> Hogar de Paralisis Cerebral<br>
+        Roberto Callejas Montalvo<br><br>
+         
+
+        </div>
+      </div>
+  
+    </div><!--/row-->    
+  </section>
+
+
+
+<section class="container-fluid" id="when">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+          <h2 style="color:#26396E">Schedule</h2>
+    
+    <br>      <br>
+<span style="color:#AB2B3F">
+          <h4>Feb. 01, 2015</h4></span>
+          Deadline for professional artwork submissions.
+          <p>
+          </p>
+
+<br>
+<br>
+<span style="color:#AB2B3F">
+          <h4>Feb. 15, 2015</h4></span>
+          Deadline for student artwork submissions.
+          <p>
+          </p>
+
+<br>
+<br>
+<span style="color:#AB2B3F">
+          <h4>Mar. 1, 2015</h4></span>
+          Public registration opens.
+          <p>
+          </p>
+
+<br>
+<br>
+<span style="color:#AB2B3F">
+          <h4>Mar. 20, 2015</h4></span>
+          Synchronicity Begins!
+          <p>
+          </p>
+          
+      </div>
+    </div>
+  </section>
+
+
+
+
+<section class="container-fluid" id="participate">
+  <div >
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 text-center"><h1 style="color:#26396E">Participate</h1></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+
+        <div class="list-group text-center" style="width:80%; positive:relative; margin: 0 auto; margin-top: 20px; ">
+        
+        <p>
+<h4>Call for Artwork for Synchronicity</h4>
+
+<br><p><h4>DEADLINES</h4>
+<span style="color:#AB2B3F"><strong>Feb. 01, 2015 </strong></span>– Professionals
+<br><span style="color:#AB2B3F"><strong>Feb. 15, 2015</strong></span> – Students</p>
+<br>
+
+
+<p><strong>Escuela Americana of El Salvador</strong> and <strong>Folding Table Productions</strong> are announcing a call for artwork based on the idea of synchronization for the EA Spring 2015 Arts Festival: <strong>Synchronicity.</strong></p>
+
+<br><p>What does it mean to feel connected to others?
+<br>What does it mean to be on the same page, same wavelength, or same beat?
+<br>What does it mean to be synchronized?</p><br>
+
+<p>Synchronicity explores the timing and sequencing of events, which encapsulates a duality of our shared experiences. Synchronicity can mean coincidence and can imply harmony. Synchronicity focuses our attention to certain moments, while at the same time minimizing our connections elsewhere.</p><br>
+
+<p>We anticipate a multi-sensory and interactive art experience. Artists are encouraged to submit existing or new artwork that combines not only the visual, but also dance and performance, aural, tactile, and even olfactory.</p><br>
+
+<p>Artworks will be featured for sale on our auction website. Proceeds go to benefit HOPAC, a Salvadoran charity organization for cerebral palsy.</p><br>
+
+<p><h4 style="text-align:left">Within your submission, please include:</h4>
+<ul><li style="text-align:left">your (professional artist) name</li>
+<li style="text-align:left">email address</li>
+<li style="text-align:left">mailing address</li>
+<li style="text-align:left">4–8 high-resolution images of current work, or conceptual sketches</li>
+<li style="text-align:left">100-word max. statement about your work as it relates to Synchronicity</li>
+<li style="text-align:left">100-word max. artist's biography</li>
+</ul>
 </p>
+
+<br>
+<p><h4 style="text-align:left">Suggested medium/a:</h4>
+<ul><li style="text-align:left">painting</li>
+<li style="text-align:left">drawing</li>
+<li style="text-align:left">photography</li>
+<li style="text-align:left">sculpture</li>
+<li style="text-align:left">mixed media</li>
+<li style="text-align:left">audio/visual art</li>
+<li style="text-align:left">musical composition</li>
+<li style="text-align:left">fashion</li>
+<li style="text-align:left">furniture</li>
+<li style="text-align:left">dance and performance art  </li>      </ul>
+        </p>  
+<br><p>Proposals and inquiries should be sent to: 
+<br><strong><span style="font-size:20px;">synchronicity@foldingtableproductions.org</span></strong></p><br>
+
+        </div>
+      </div><!--/middle-->
+      
+      <div class="col-sm-6 col-xs-12">
+
+        <div class="list-group text-center" style="width:80%; positive:relative; margin: 0 auto; margin-top: 20px;">
+
+
+<h4>Convocatoria de Obras de Arte para Synchronicity</h4>
+
+<br><p><h4>LA FECHAS LÍMITES</h4>
+<span style="color:#AB2B3F"><strong>Feb. 01, 2015</strong></span> - Profesionales
+<br><span style="color:#AB2B3F"><strong>Feb. 01, 2015</strong></span> - Estudiantes</p><br>
+
+
+
+<p><strong>Escuela Americana de El Salvador</strong> y <strong>Folding Table Productions</strong> anuncian una convocatoria para obras de artes para Synchronicity, un festival de arte basada en la idea de la <strong>sincronización</strong>, a la Escuela Americana en la primavera 2015.</p>
+
+<br>
+<p>Qué significa para sentirse conectados a los demás?
+<br>Qué significa estar en la misma página, la misma longitud de onda, o el mismo ritmo?
+<br>Qué significa estar sincronizado?</p>
+
+<br><p>Synchronicity explora la cadencia y la secuencia de los sucesos, que sintetiza una dualidad de nuestras experiencias compartidas. Synchroncity puede significar coincidencia o implicar armonía. Synchronicity enfoca nuestra atención a los momentos específicos, mientras simultáneamente minimizando nuestras conexiones en otro lugar.</p>
+
+<br><p>Anticipamos una experiencia de arte que está multisensorial y interactiva. Los artistas son invitados a presentar obras de arte existente o de nuevo que combina no sólo
+los aspectos visuales sino también de la danza y la performance, auditivos, táctiles, e incluso olfativos.</p>
+
+
+<br><p>Obras de arte serán presentadas a la venta en nuestro sitio web de subastas. Los ingresos van a beneficiar HOPAC, una organización benéfica salvadoreña para la parálisis cerebral.</p>
+<br>
+<p><h4 style="text-align:left">En su presentación, por favor incluya:</h4>
+<ul>
+<li style="text-align:left">su nombre</li>
+<li style="text-align:left">dirección de correo electrónico</li>
+<li style="text-align:left">dirección de correo</li>
+<li style="text-align:left">4–8 imágenes de alta resolución de trabajo actual o imágenes del concepto</li>
+<li style="text-align:left">100 palabras máximo de su trabajo para Synchronicity</li>
+<li style="text-align:left">100 palabras máximo biografía</li>
+</ul></p>
+
+<br>
+<p><h4 style="text-align:left">Técnica artística sugerida:</h4>
+<ul>
+<li style="text-align:left">pintura</li>
+<li style="text-align:left">dibujo</li>
+<li style="text-align:left">fotografía</li>
+<li style="text-align:left">escultura</li>
+<li style="text-align:left">técnicas mixtas</li>
+<li style="text-align:left">arte audio o visual</li>
+<li style="text-align:left">composición musical</li>
+<li style="text-align:left">moda</li>
+<li style="text-align:left">muebles</li>
+<li style="text-align:left">danza y la performance de arte  </li>        
+          </ul></p>
+
+<br><p>Propuestas y preguntas deben ser enviadas a:
+<br><strong><span style="font-size:20px;">synchronicity@foldingtableproductions.org</span></strong></p><br>
+
+        </div>
+      </div>
+  
+    </div><!--/row-->
+    </div><!--/container--> 
+  </div>
+</section>
+
+     
+
+<footer id="footer">
+  <div class="container">
+
+
+    <div class="row">    
+      <div class="col-xs-6 col-sm-6 col-md-3 column"> 
+      <a href="http://www.austincreativealliance.org/"><img src="https://foldingtableproductions.files.wordpress.com/2013/07/aca-orange-pink-logo-large-e1374601916347.jpg?w=400&h=191" style="width:100px;margin:20px"></a>         
+      </div>
+      <div class="col-xs-6 col-md-3 column">     
+      <a href="http://austintexas.gov/department/cultural-arts"><img src="https://foldingtableproductions.files.wordpress.com/2014/05/cadlogo-color-400.jpg?w=206&h=150" style="width:100px;margin:20px"></a>     
+      </div>
+
+      <div class="col-xs-6 col-md-3 column">          
+        <a href="http://www.hopac.org/index.php" target="_blank"><img src="http://i.imgur.com/L6ESrue.png" style="width:70px;margin:20px" ></a>
+      </div>   
+
+
+      <div class="col-xs-6 col-md-3 column">          
+<a href="https://www.amschool.edu.sv/easite/" target="_blank"><img src="https://foldingtableproductions.files.wordpress.com/2014/12/ea-logo.png?w=750" style="width:100px;margin:20px"></a>
+      </div>     
+    </div><!--/row-->
+
+    <div class="row">
+      <div class="col-sx-12 text-center">
+      <h4>Thank you for your support!</h4>
+      </div>
+    </div>    
+  </div>
+</footer>     
+  <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+
+  <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+  <!-- JavaScript jQuery code from Bootply.com editor  -->
+
+  <script type='text/javascript'>
+
+  $(document).ready(function() {
+
+              /* activate scrollspy menu */
+  $('body').scrollspy({
+    target: '#navbar-collapsible',
+    offset: 50
+  });
+
+  /* smooth scrolling sections */
+  $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top - 50
+          }, 1000);
+          return false;
+        }
+      }
+  });
+
+          
+          });
+
+  </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-40413119-1', 'bootply.com');
+    ga('send', 'pageview');
+  </script>
+
+  </body>
+</html>

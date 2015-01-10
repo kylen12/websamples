@@ -3,7 +3,29 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
+  root 'codeplayer#index'
+
+  get '/codeplayer/accordionimageslider', to: "codeplayer#accordionimageslider"
+
+  # Removed because there is a known bug
+  # get '/codeplayer/animatedcheckboxes', to: "codeplayer#animatedcheckboxes"
+
+  get '/codeplayer/breadcrumbs', to: "codeplayer#breadcrumbs"
+  get '/codeplayer/floatlabels', to: "codeplayer#floatlabels"
+  get '/codeplayer/gridanimation', to: "codeplayer#gridanimation"
+  get '/codeplayer/imagefiltereffect', to: "codeplayer#imagefiltereffect"
+  get '/codeplayer/imagehover3d', to: "codeplayer#imagehover3d"
+  get '/codeplayer/imageswiththumbnails', to: "codeplayer#imageswiththumbnails"
+  get '/codeplayer/inputform3d', to: "codeplayer#inputform3d"
+  get '/codeplayer/lightboxgallery', to: "codeplayer#lightboxgallery"
+  get '/codeplayer/magnifyingglass', to: "codeplayer#magnifyingglass"
+  get '/codeplayer/multistepform', to: "codeplayer#multistepform"
+  get '/codeplayer/offcanvasmenu', to: "codeplayer#offcanvasmenu"
+  get '/codeplayer/pricetable', to: "codeplayer#pricetable"
+  get '/codeplayer/roundgauge', to: "codeplayer#roundgauge"
+  get '/codeplayer/stopwatch', to: "codeplayer#stopwatch"
+  get '/codeplayer/verticalaccordionmenu', to: "codeplayer#verticalaccordionmenu"
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
